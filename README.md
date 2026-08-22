@@ -180,6 +180,7 @@ This value represents measured YOLO inference throughput using frame-by-frame pr
 
 ## 📁 Project Structure
 
+<pre>
 drone-detection-tracking/
 │
 ├── models/
@@ -208,6 +209,7 @@ drone-detection-tracking/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+</pre>
 
 ---
 
