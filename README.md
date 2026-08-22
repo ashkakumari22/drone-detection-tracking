@@ -127,6 +127,8 @@ The trained model was evaluated on the held-out test set.
 | mAP@50 | 97.09% |
 | mAP@50–95 | 71.39% |
 
+> **Note:** The lower mAP@50–95 compared with mAP@50 reflects the stricter localization criterion across IoU thresholds from 0.50 to 0.95, which is particularly challenging for small drone targets.
+
 ### Evaluation Visualizations
 
 #### Confusion Matrix
@@ -178,7 +180,7 @@ The final demonstration successfully tracks two drones simultaneously with separ
 
 The tracking demonstration was evaluated using a publicly available drone video.
 
-[Source Video](https://www.pexels.com/video/drones-flying-over-city-skyline-29268886/?utm_source=chatgpt.com)
+[Source Video](https://www.pexels.com/video/drones-flying-over-city-skyline-29268886/)
 
 The video is used only for testing and demonstration of the detection and tracking pipeline.
 
@@ -259,17 +261,16 @@ python src/track.py --model path/to/drone_yolov8n_best.pt --source path/to/input
 
 ---
 
-## 💾 Model Weights
+## Model Weights
 
-The trained model weights are not directly included in this repository.
+The trained YOLOv8n weights are available here:
 
-Model information and training details are available in:
+[Download `drone_yolov8n_best.pt`](https://drive.google.com/file/d/1LE9lrJtQSjyoWn6kiWJ2gVezrew70ulO/view?usp=sharing)
 
-models/model_info.md
-
-The final trained model is:
-
-drone_yolov8n_best.pt
+**File:** `drone_yolov8n_best.pt`  
+**Framework:** Ultralytics YOLOv8  
+**Task:** Object Detection  
+**Class:** Drone
 
 ---
 
