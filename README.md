@@ -30,17 +30,17 @@ Small aerial objects such as drones can be difficult to detect and track because
 
 This project addresses the problem using a two-stage computer vision pipeline:
 
-Input Video
-     ↓
-YOLOv8n Object Detection
-     ↓
-Drone Bounding Boxes
-     ↓
-ByteTrack Multi-Object Tracking
-     ↓
-Persistent Drone IDs
-     ↓
-Tracked Video
+**Input Video**  
+⬇️  
+**YOLOv8n Object Detection**  
+⬇️  
+**Drone Bounding Boxes**  
+⬇️  
+**ByteTrack Multi-Object Tracking**  
+⬇️  
+**Persistent Drone IDs**  
+⬇️  
+**Tracked Video**
 
 ---
 
