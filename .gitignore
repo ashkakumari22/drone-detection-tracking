@@ -5,9 +5,7 @@ __pycache__/
 runs/
 *.pt
 
-data/train/
-data/val/
-data/test/
+data/
 
 results/*.mp4
 results/*.avi
