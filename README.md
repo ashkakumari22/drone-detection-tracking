@@ -218,7 +218,7 @@ drone-detection-tracking/
 Clone the repository and install the required dependencies.
 
 <pre>
-git clone &lt;YOUR_REPOSITORY_URL&gt;
+git clone https://github.com/ashkakumari22/drone-detection-tracking.git
 cd drone-detection-tracking
 pip install -r requirements.txt
 </pre>
