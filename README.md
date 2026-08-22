@@ -62,6 +62,14 @@ This project addresses the problem using a two-stage computer vision pipeline:
 
 The model was trained using the UAVs dataset in YOLOv8 format.
 
+### Dataset Source
+
+The dataset was obtained from Roboflow:
+
+[UAVs Dataset – Roboflow]([YOUR_ROBOFLOW_DATASET_URL](https://universe.roboflow.com/uavs-7l7kv/uavs-vqpqt))
+
+The dataset is licensed under CC BY 4.0. Please refer to the original dataset page for attribution and usage terms.
+
 ### Dataset Split
 
 | Split | Images |
@@ -163,6 +171,16 @@ The final tracker uses a custom configuration with the following parameters:
 The increased tracking buffer and association threshold were used to improve identity persistence when drones temporarily overlap or become difficult to distinguish.
 
 The final demonstration successfully tracks two drones simultaneously with separate IDs.
+
+---
+
+## 🎥 Test Video
+
+The tracking demonstration was evaluated using a publicly available drone video.
+
+[Source Video](https://www.pexels.com/video/drones-flying-over-city-skyline-29268886/?utm_source=chatgpt.com)
+
+The video is used only for testing and demonstration of the detection and tracking pipeline.
 
 ---
 
