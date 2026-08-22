@@ -227,8 +227,6 @@ pip install -r requirements.txt
 
 ## 🔍 Running Drone Detection
 
-## 🔍 Running Drone Detection
-
 <pre>
 python src/detect.py --model path/to/drone_yolov8n_best.pt --source path/to/input_video.mp4
 </pre>
