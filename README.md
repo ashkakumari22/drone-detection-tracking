@@ -66,7 +66,7 @@ The model was trained using the UAVs dataset in YOLOv8 format.
 
 The dataset was obtained from Roboflow:
 
-[UAVs Dataset – Roboflow]([YOUR_ROBOFLOW_DATASET_URL](https://universe.roboflow.com/uavs-7l7kv/uavs-vqpqt))
+[UAVs Dataset – Roboflow](https://universe.roboflow.com/uavs-7l7kv/uavs-vqpqt)
 
 The dataset is licensed under CC BY 4.0. Please refer to the original dataset page for attribution and usage terms.
 
