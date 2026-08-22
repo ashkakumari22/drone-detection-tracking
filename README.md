@@ -72,17 +72,11 @@ The dataset is licensed under CC BY 4.0. Please refer to the original dataset pa
 
 ### Dataset Split
 
-| Split | Images |
-|---|---:|
-| Training | 6,928 |
-| Validation | 1,884 |
-| Test | 450 |
-
-The dataset contains a single object class:
-
-drone
-
-The complete dataset is not included in this repository because of its size.
+- Training: 6,928 images
+- Validation: 1,884 images
+- Test: 450 images
+- **Images used in the exported dataset: 9,262**
+- Classes: 1 (`drone`)
 
 ---
 
