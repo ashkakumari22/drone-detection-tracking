@@ -1,4 +1,4 @@
-# 🚁 Drone Detection & Multi-Object Tracking
+# 🚁 Drone Detection & Tracking
 
 A computer vision pipeline for detecting and tracking drones in aerial video using YOLOv8n and ByteTrack.
 
@@ -217,31 +217,29 @@ drone-detection-tracking/
 
 Clone the repository and install the required dependencies.
 
-    git clone <YOUR_REPOSITORY_URL>
-    cd drone-detection-tracking
-    pip install -r requirements.txt
+<pre>
+git clone &lt;YOUR_REPOSITORY_URL&gt;
+cd drone-detection-tracking
+pip install -r requirements.txt
+</pre>
 
 ---
 
 ## 🔍 Running Drone Detection
 
-Use the detection script with a trained YOLO model.
+## 🔍 Running Drone Detection
 
-    python src/detect.py --model path/to/drone_yolov8n_best.pt --source path/to/input_video.mp4
-
-Additional parameters can be specified.
-
-    python src/detect.py --model path/to/drone_yolov8n_best.pt --source path/to/input_video.mp4 --conf 0.25 --imgsz 640
+<pre>
+python src/detect.py --model path/to/drone_yolov8n_best.pt --source path/to/input_video.mp4
+</pre>
 
 ---
 
 ## 🎯 Running Multi-Drone Tracking
 
-Run the ByteTrack pipeline using:
-
-    python src/track.py --model path/to/drone_yolov8n_best.pt --source path/to/input_video.mp4
-
-The script automatically creates the custom ByteTrack configuration used by the project.
+<pre>
+python src/track.py --model path/to/drone_yolov8n_best.pt --source path/to/input_video.mp4
+</pre>
 
 ---
 
